@@ -27,6 +27,20 @@ dependencies {
   implementation('org.glassfish.jersey.media:jersey-media-json-jackson:2.34')
   implementation('org.glassfish.jersey.inject:jersey-cdi2-se:2.34')
   implementation('org.jboss.weld.se:weld-se-core:3.1.9.Final')
+  // https://mvnrepository.com/artifact/org.springframework/spring-webmvc
+  implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.34'
+// https://mvnrepository.com/artifact/org.springframework/spring-orm
+  implementation group: 'org.springframework', name: 'spring-orm', version: '5.3.34'
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+  implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.3.36.Final'
+// https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager
+  implementation group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.3.36.Final'
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+  implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.33'
+// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+  implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.7.2'
+// https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml
+  implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.12.7'
 
   testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
